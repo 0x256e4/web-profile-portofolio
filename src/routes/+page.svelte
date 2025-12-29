@@ -23,8 +23,10 @@
                 <Instagram class="w-5 h-5" />
             </a>
         </div>
-        <div id="brief-profile" class="my-3 flex text-justify md:px-40 sm:px-20 px-10">
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni atque inventore, natus quaerat suscipit minus reiciendis. Omnis quo illum quaerat labore a nam veritatis molestias ipsa, quos quidem animi ex est.</p>
+        <div id="brief-profile" class="my-3 text-justify md:px-40 sm:px-20 px-5">
+            <p>Masalah terus datang dari hari ke hari, beberapa masalah tidak cukup efisien jika diselesaikan dengan solusi yang biasa dilakukan. Hal inilah mendorong saya terus mengasah skill saya dibidang teknologi baik itu Programming, Networking, maupun Cyber Security.</p>
+            <br>
+            <q class="italic block text-center" cite="me">Kenapa menyelesaikan masalah sendirian sedangkan komputer bisa menyelesaikan banyak tugas sekaligus ^^</q>
         </div>
     </section>
 	<hr class="mb-2 mx-30 md:mx-99">

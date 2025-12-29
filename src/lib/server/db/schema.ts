@@ -23,6 +23,13 @@ export const projects = pgTable('projects', {
 	tech_stack: text('tech_stack').notNull()
 });
 
+// wip
+export const posts = pgTable('posts', {
+	id: integer('id').primaryKey().generatedByDefaultAsIdentity(),
+	judul: text('judul').notNull(),
+	isi_artikel: text('isi_artikel')
+});
+
 export type Session = typeof session.$inferSelect;
 
 export type User = typeof user.$inferSelect;

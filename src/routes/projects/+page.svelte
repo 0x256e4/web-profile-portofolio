@@ -15,7 +15,7 @@
         {#each data.projects as project}
         <div id="project" class="border-4 box-content w-50 p-4 hover:border-amber-400 hover:-translate-y-2 cursor-pointer">
             <a href="/project/{ project.id }">
-                <h1 class="text-xl mb-2 font-bold">{ project.judul }</h1>
+                <h1 class="text-xl mb-2 font-bold text-center">{ project.judul }</h1>
                 <picture>
                     <source srcset="{ contoh }" type="image/jpeg">
                     <img src="{ contoh }" alt="" class="w-100 h-30 object-cover mb-2">
