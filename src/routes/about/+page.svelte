@@ -15,6 +15,12 @@
             <p class="text-justify">Nama saya Muhammad Willdhan Arya Putra. Hobi yang saya lakukan ketika waktu luang yaitu mendengarkan musik hingga bermain permainan basis PC atau Mobile dengan genre VSRG, Moba, dan FPS.</p>
         </div>
     </div>
+    <div id="academic" class="mt-5">
+        <h2 class="text-2xl font-bold">Pendidikan</h2>
+        <div id="detail" class="lg:w-200 mt-3">
+            <p class="text-justify">Lulusan Teknik Informatika Universitas Bengkulu dengan IPK 3,74. Beberapa kali ikut serta dalam beberapa kegiatan kampus organisasi mahasiswa. Menjadi asisten dosen sebanyak kurang lebih 3 semester tahun ajaran, untuk program studi Informatika maupun umum.</p>
+        </div>
+    </div>
     <div id="skills" class="mt-5">
         <h2 class="text-2xl font-bold">Skills</h2>
         <div id="detail" class="lg:w-200 mt-3">
@@ -51,9 +57,9 @@
         </div>
     </div>
     <div id="contact" class="mt-5">
-        <h2 class="text-2xl font-bold">Contact</h2>
+        <h2 class="text-2xl font-bold">Kontak</h2>
         <div id="detail" class="lg:w-200 mt-3">
-            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ab fugiat suscipit ipsam numquam, sit excepturi? Nihil quidem ipsa corporis quo qui, minima labore odio delectus enim maiores blanditiis doloremque aspernatur velit.</p>
+            <p class="text-justify">Tertarik untuk mengundang saya untuk menjadi bagian dari tim anda? hubungi <a href="mailto:aryaputrascorpio@gmail.com" class="hover:text-sky-600">aryaputrascorpio@gmail.com</a>.</p>
         </div>
     </div>
 </main>
