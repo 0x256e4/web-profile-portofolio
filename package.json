@@ -46,6 +46,7 @@
 		"vite": "^7.1.10"
 	},
 	"dependencies": {
+		"@fontsource-variable/oswald": "^5.2.8",
 		"@node-rs/argon2": "^2.0.2",
 		"lucide-svelte": "^0.561.0",
 		"postgres": "^3.4.7"

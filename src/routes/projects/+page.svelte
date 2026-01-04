@@ -17,7 +17,9 @@
         {#each data.projects as project}
         <div id="project" class="border-4 box-content w-50 p-4 hover:border-amber-400 hover:-translate-y-2 cursor-pointer">
             <a href="/projects/{ project.id }">
-                <h1 class="text-xl mb-2 font-bold text-center h-15">{ project.judul }</h1>
+                <div id="title" class="h-15 flex justify-center items-center">
+                    <h1 class="text-xl font-bold text-center">{ project.judul }</h1>
+                </div>
                 <!-- Sementara dulu, belum bikin dashboard dan penyimpanan resource :p -->
                 {#if project.id === 1}
                 <picture>

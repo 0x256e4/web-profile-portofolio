@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
+	import '@fontsource-variable/oswald';
 
 	import { page } from '$app/state';
 	import { Menu, X } from 'lucide-svelte';
@@ -25,7 +26,7 @@
 {#if page.status === 200}
 	<header class="container mt-5">
 		<nav class="flex justify-between items-center">
-			<a href="/" class="hover:underline">Willdhan's Blogs</a>
+			<a href="/" class="hover:underline" onclick={closeNavMobile}>Willdhan's Blogs</a>
 			<ul class="hidden md:inline-flex gap-5">
 				<li>
 					<a href="/posts" class="hover:underline">Posts</a>
@@ -50,17 +51,17 @@
 			<div transition:slide={{ duration: 300}} class="md:hidden mt-4 border-t border-gray-200 pt-4">
 				<ul class="flex flex-col gap-4">
 					<li>
-						<a href="/posts" class="block hover:text-blue-600 font-medium">
+						<a href="/posts" class="block hover:text-blue-600 font-medium" onclick={closeNavMobile}>
 							Posts
 						</a>
 					</li>
 					<li>
-						<a href="/projects" class="block hover:text-blue-600 font-medium">
+						<a href="/projects" class="block hover:text-blue-600 font-medium" onclick={closeNavMobile}>
 							Projects
 						</a>
 					</li>
 					<li>
-						<a href="/about" class="block hover:text-blue-600 font-medium">
+						<a href="/about" class="block hover:text-blue-600 font-medium" onclick={closeNavMobile}>
 							About Me
 						</a>
 					</li>
@@ -78,3 +79,15 @@
 		<p>Dibuat dengan senang hati oleh <a href="https://www.linkedin.com/in/muhammad-willdhan-arya-putra/" target="_blank">🐈</a></p>
 	</footer>	
 {/if}
+
+<style>
+  :global(body) {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+  }
+
+  :global(h1, h2, h3, h4, h5, h6) {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+  }
+</style>
