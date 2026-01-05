@@ -62,7 +62,7 @@
         <div id="kanan">
             <div id="contact" class="2xl:ms-10 mt-5 md:mt-0">
                 <h2 class="text-2xl font-bold">Kontak</h2>
-                <div id="detail" class="2xl:w-135 mt-3">
+                <div id="detail" class="2xl:w-135 lg:w-200 mt-3">
                     <p class="text-justify">Tertarik untuk mengundang saya untuk menjadi bagian dari tim anda? hubungi saya di <a href="mailto:aryaputrascorpio@gmail.com" class="hover:text-sky-600">aryaputrascorpio@gmail.com</a>. Atau via sosial media yang saya lampirkan di-homepage website ini ^^</p>
                 </div>
             </div>
